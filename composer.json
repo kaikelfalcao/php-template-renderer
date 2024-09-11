@@ -1,0 +1,28 @@
+{
+    "name": "kaikelfalcao/php-template-renderer",
+    "description": "A simple template rendering for PHP",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "3.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Renderer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kaike",
+            "email": "kaikelfalcao@gmail.com",
+            "role": "dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
